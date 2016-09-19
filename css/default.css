@@ -1,0 +1,69 @@
+/* Embedded Fonts */
+
+@font-face {
+	font-family: lucinda;
+	src:url(../fonts/LBRITE.ttf);
+}
+
+
+
+
+/* Container Items */
+
+html, body {
+	height: 100%;
+	font-family: 'lucinda';
+}
+
+#cover {
+	height: 100%;
+	width: 100%;
+	background: url("../images/cover.jpg") no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	box-sizing: border-box;
+}
+
+#cover .title {
+	padding: 1em 36px;
+}
+
+#container {
+	margin-top: 1em;
+	padding: 1em 36px;
+}
+
+
+
+/* Paragraph Styles */
+
+.title {
+	font-size: 4.5em;
+	color: black;
+	letter-spacing: .1em;
+	box-shadow: ;
+}
+
+.author {
+	font-size: 2em;
+	color: black;
+	word-spacing: .2em;
+	text-align: right;
+	margin-right: 3em;
+}
+
+
+.text {
+	max-width: 800px;
+	font-family: 'lucinda';
+	font-size: 1em;
+	color: black;
+	line-height: 2em;
+	word-spacing: .2em;
+	text-align: left;
+	margin-bottom: 2em;
+}
+
+.italic {
+	font-weight: bold;
+}
